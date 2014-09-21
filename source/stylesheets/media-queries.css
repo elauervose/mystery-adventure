@@ -1,0 +1,555 @@
+/*-----------------------------------------------------------------------------------*/
+/*	MEDIA QUERIES
+/*-----------------------------------------------------------------------------------*/
+/* iPad Landscape */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) { 
+	
+	
+
+}
+
+/* Tablet Portrait size to standard 960 (devices and browsers) */
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+	
+	.header,
+	.wrapper, 
+	.footer,
+	.site-generator,
+	.page-title {
+		width: 720px;
+	}
+	
+	.head-image h1 {
+		font-size: 20px;
+		bottom: 0px;
+		padding: 3px 10px 0px;
+	}
+	
+	.header {
+		text-align: center;
+	}
+	
+	.logo {
+		position: relative;
+		display: inline-block;
+	}
+	
+	.menu {
+		float: none;
+		margin-top: 17px;
+		margin-bottom: 3px;
+		text-align: center;
+	}
+	
+	.menu ul li {
+		float: none;
+		display: inline-block;
+		margin: 0 20px;	
+	}
+	
+	.menu ul li ul li {
+		text-align: left;
+	}
+	
+	.header-wrapper {
+		height: auto;
+		background-image: url(../images/header2.png);
+		margin-bottom: -3px;
+	}
+	
+	.posts-grid .post {
+		width: 345px;
+	}
+	
+	.post .post-content {
+		width: 645px;
+	}
+	
+	.posts-grid .post .post-content {
+		width: 270px;
+	}
+	
+	.banner, .bannercontainer {
+		width:720px;
+		height:360px;
+	}
+	
+	.tparrows {
+		display: none;
+	}
+	
+	.related ul li,
+	.related ul li img,
+	.items li,
+	.items li img {
+		width: 168px;
+		height: auto;
+	}
+	
+	.zetaHolder {
+		height:490px;
+	}
+	.zetaEmpty {
+		height:400px;
+	}
+		
+	.zetaEmpty div {
+		height:400px;
+	}
+	
+	.thumbnail-wrapper {
+		width: 740px;
+	}
+	.thumbnail-wrapper.col2 .zetaThumbs li {
+		width: 350px;
+	}
+	.thumbnail-wrapper.col2 .zetaThumbs li img {
+		width: 350px;
+		height: auto;
+	}
+	
+	.etabs.left .tab a { 
+		padding:5px 19px 5px 25px; 
+	}
+
+}/* END Smaller than standard 960 (devices and browsers) */
+
+/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	
+	.header,
+	.wrapper, 
+	.footer,
+	.site-generator {
+		width: 440px;
+	}
+	
+	.page-title {
+		display: none;
+	}
+	
+	.header {
+		text-align: center;
+	}
+	
+	.logo {
+		position: relative;
+		display: inline-block;
+	}
+	
+	.menu {
+		float: none;
+		margin-top: 17px;
+		margin-bottom: 3px;
+	}
+	
+	.menu ul#tiny {
+		display: none;
+	}
+	
+	.selectnav {
+		display: block;
+	}
+	
+	.header-wrapper {
+		height: auto;
+		background-image: url(../images/header2.png);
+		margin-bottom: -3px;
+		padding-bottom: 5px;
+	}
+	
+	.posts-grid .post {
+		width: 440px;
+	}
+	
+	.grid-wrapper .posts-grid.latest .post {
+		margin: 0 0 50px 0;
+	}
+	
+	.posts-grid .post .post-content,
+	.post .post-content {
+		width: 365px;
+	}
+	
+	.tab { 
+		display: block; 
+		border: none;
+	}
+	
+	.tab a { 
+		border: 1px solid #d9d9d9;
+		border-bottom: none;
+		background: #f3f5f1;
+		padding: 10px;
+	}
+	
+	.tab-container .panel-container {
+		border-top: 1px solid #d9d9d9;
+	}
+	
+	.etabs.left .tab:first-child {
+		border: none;
+	}
+	
+	.etabs.left { 
+		text-align: center;
+	}
+	
+	.one-half, .one-third, .two-third, .three-fourth, .one-fourth, .one-fifth, .one-sixth {
+		margin: 0;
+		width: 100%;
+		margin-bottom: 20px;
+		float: none;
+	}
+	
+	.footer .one-half, .footer .one-third, .footer .two-third, .footer .three-fourth, .footer .one-fourth, .footer .one-fifth, .footer .one-sixth {
+		margin-bottom: 40px;
+	}
+	
+	.footer .last {
+		margin-bottom: 0;
+	}
+	
+	.tparrows {
+		display: none;
+	}
+	
+	.banner, .bannercontainer {
+		 width:440px;
+		 height:230px;
+	}
+	
+	#comments .user {
+		display: none;
+	}
+	
+	#comments ul.children {
+		padding:0 0 0 20px;
+	}
+	
+	.related ul li{
+		margin-right: 8px;
+	}
+	
+	.related ul li,
+	.related ul li img {
+		width: 104px;
+		height: auto;
+	}
+	
+	
+	img.right, 
+	img.alignright,
+	img.left, 
+	img.alignleft {
+		float: none;
+		margin: 0 0 20px 0;
+	}
+	
+	p img.right, 
+	p img.alignright,
+	p img.left, 
+	p img.alignleft {
+		margin-top: 20px;
+	}
+	
+	.items li,
+	.items li img {
+		width: 212px;
+		height: auto;
+	}
+	
+	.fancybox-title {
+		display: none;
+	}
+	
+	.tp-bullets.simplebullets .bullet {
+		width:25px;
+		height:10px;
+		margin:2px;
+	}
+	
+	.zetaHolder {
+		padding: 46px 20px 20px 20px;
+		height:270px;
+	}
+	.zetaEmpty {
+		height:200px;
+	}
+		
+	.zetaEmpty div {
+		height:200px;
+	}
+	
+	.thumbnail-wrapper {
+		width: 460px;
+	}
+	.thumbnail-wrapper.col2 .zetaThumbs li {
+		width: 210px;
+	}
+	.thumbnail-wrapper.col2 .zetaThumbs li img {
+		width: 210px;
+		height: auto;
+	}
+	
+	.zetaWarning {
+		display: none !important;
+	}
+	
+	.zetaEmpty div span.caption {
+		display: none !important;
+	}
+	
+	.copyright {
+		float:none;
+		max-width: none;
+		text-align: center;
+	}
+
+	.social {
+		float: none;
+		text-align: center;
+		margin-top: 10px;
+	}
+	
+	.social li,
+	.social a {
+		float: none;
+		display: inline-block;
+		margin: 0;
+	}
+	
+
+}/* END Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+
+/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+@media only screen and (max-width: 479px) {
+
+	
+	.header,
+	.wrapper, 
+	.footer,
+	.site-generator {
+		width: 280px;
+	}
+	
+	.page-title {
+		display: none;
+	}
+
+	.header {
+		text-align: center;
+	}
+	
+	.logo {
+		position: relative;
+		display: inline-block;
+	}
+	
+	.menu {
+		float: none;
+		margin-top: 17px;
+		margin-bottom: 3px;
+	}
+	
+	.menu ul#tiny {
+		display: none;
+	}
+	
+	.selectnav {
+		display: block;
+	}
+	
+	.header-wrapper {
+		height: auto;
+		background-image: url(../images/header2.png);
+		margin-bottom: -3px;
+		padding-bottom: 5px;
+	}
+	
+	.one-half, .one-third, .two-third, .three-fourth, .one-fourth, .one-fifth, .one-sixth {
+		margin: 0;
+		width: 100%;
+		margin-bottom: 20px;
+		float: none;
+	}
+	
+	.footer .one-half, .footer .one-third, .footer .two-third, .footer .three-fourth, .footer .one-fourth, .footer .one-fifth, .footer .one-sixth {
+		margin-bottom: 40px;
+	}
+	
+	.footer .last {
+		margin-bottom: 0;
+	}
+	
+	.tparrows {
+		display: none;
+	}
+	
+	.tab { 
+		display: block; 
+		border: none;
+	}
+	
+	.tab a { 
+		border: 1px solid #d9d9d9;
+		border-bottom: none;
+		background: #f3f5f1;
+		padding: 10px;
+	}
+	
+	.tab-container .panel-container {
+		border-top: 1px solid #d9d9d9;
+	}
+	
+	.etabs.left .tab:first-child {
+		border: none;
+	}
+	
+	.etabs.left { 
+		text-align: center;
+	}
+	
+	.post .info {
+		width: 50px;
+	}
+	
+	.post .post-content {
+		width: 230px;
+		min-height: 170px;
+		padding-top: 13px;
+		padding-left: 20px;
+	}
+	
+	.posts-grid .post .post-content {
+		width: 230px;
+	}
+	
+	.post .info .date {
+		padding: 13px 0;
+		margin-bottom: 13px;
+	}
+	
+	.single .post .info .likes {
+		padding-bottom: 8px;
+	}
+	
+	.post .info .date .day {
+		font-size: 20px;
+		line-height: 20px;
+	}
+	
+	.post .info .date .month {
+		font-size: 12px;
+	}
+	
+	.post .info .likes a.like-count {
+		font-size: 18px;
+	}
+	
+	.post .info .likes a.like-count span {
+		margin: 0 auto 3px;
+	}
+	
+	#comments .user {
+		display: none;
+	}
+	
+	#comments ul.children {
+		padding:0 0 0 20px;
+	}
+	
+	.related ul {
+		margin-bottom: -8px;
+	}
+	
+	.related ul li{
+		margin-right: 8px;
+		margin-bottom: 8px;
+	}
+	
+	.related ul li,
+	.related ul li img {
+		width: 136px;
+		height: auto;
+	}
+	
+	.items li,
+	.items li img {
+		width: 132px;
+		height: auto;
+	}
+	
+	.fancybox-title {
+		display: none;
+	}
+	
+	.banner, .bannercontainer {
+		width:310px;
+		height:170px;
+	}
+	
+	.tparrows {
+		display: none;
+	}
+	
+	.tp-bullets.simplebullets .bullet {
+		width:25px;
+		height:10px;
+		margin:2px;
+	}
+	
+	.zetaHolder {
+		height:270px;
+		padding: 46px 20px 20px 20px;
+	}
+	.zetaEmpty {
+		height:200px;
+	}
+		
+	.zetaEmpty div {
+		height:200px;
+	}
+	
+	.thumbnail-wrapper {
+		width: 280px;
+		padding: 0;
+	}
+	.thumbnail-wrapper.col2 .zetaThumbs li {
+		width: 280px;
+		margin-right: 0;
+	}
+	.thumbnail-wrapper.col2 .zetaThumbs li img {
+		width: 280px;
+		height: auto;
+	}
+	
+	.zetaWarning {
+		display: none !important;
+	}
+	
+	.zetaEmpty div span.caption {
+		display: none !important;
+	}
+	
+	.copyright {
+		float:none;
+		max-width: none;
+		text-align: center;
+	}
+
+	.social {
+		float: none;
+		text-align: center;
+		margin-top: 10px;
+	}
+	
+	.social li,
+	.social a {
+		float: none;
+		display: inline-block;
+		margin: 0;
+	}
+		
+
+}/* END Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */

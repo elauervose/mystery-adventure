@@ -1,0 +1,92 @@
+@font-face {
+    font-family: 'EdmondsansBoldRegular';
+    src: url('/type/edmond/edmondsans-bold-webfont.eot');
+    src: url('/type/edmond/edmondsans-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/type/edmond/edmondsans-bold-webfont.woff') format('woff'),
+         url('/type/edmond/edmondsans-bold-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'EdmondsansMediumRegular';
+    src: url('/type/edmond/edmondsans-medium-webfont.eot');
+    src: url('/type/edmond/edmondsans-medium-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/type/edmond/edmondsans-medium-webfont.woff') format('woff'),
+         url('/type/edmond/edmondsans-medium-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'EdmondsansRegularRegular';
+    src: url('/type/edmond/edmondsans-regular-webfont.eot');
+    src: url('/type/edmond/edmondsans-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/type/edmond/edmondsans-regular-webfont.woff') format('woff'),
+         url('/type/edmond/edmondsans-regular-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'uglyquaregular';
+    src: url('/type/uglyqua-webfont.eot');
+    src: url('/type/uglyqua-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/type/uglyqua-webfont.woff2') format('woff2'),
+         url('/type/uglyqua-webfont.woff') format('woff'),
+         url('/type/uglyqua-webfont.ttf') format('truetype'),
+         url('/type/uglyqua-webfont.svg#uglyquaregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'uglyquaitalic';
+    src: url('/type/uglyqua-italic-webfont.eot');
+    src: url('/type/uglyqua-italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/type/uglyqua-italic-webfont.woff2') format('woff2'),
+         url('/type/uglyqua-italic-webfont.woff') format('woff'),
+         url('/type/uglyqua-italic-webfont.ttf') format('truetype'),
+         url('/type/uglyqua-italic-webfont.svg#uglyquaitalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'ornatiqueregular';
+    src: url('/type/ornatique_by_designstation-webfont.eot');
+    src: url('/type/ornatique_by_designstation-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/type/ornatique_by_designstation-webfont.woff2') format('woff2'),
+         url('/type/ornatique_by_designstation-webfont.woff') format('woff'),
+         url('/type/ornatique_by_designstation-webfont.ttf') format('truetype'),
+         url('/type/ornatique_by_designstation-webfont.svg#ornatiqueregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+@font-face {
+    font-family: 'uglyquaitalic';
+    src: url('/type/uglyqua-italic-webfont.eot');
+    src: url('/type/uglyqua-italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/type/uglyqua-italic-webfont.woff2') format('woff2'),
+         url('/type/uglyqua-italic-webfont.woff') format('woff'),
+         url('/type/uglyqua-italic-webfont.ttf') format('truetype'),
+         url('/type/uglyqua-italic-webfont.svg#uglyquaitalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}

@@ -1,0 +1,5 @@
+.forms fieldset .btn-submit,
+.comment-form .btn-submit {
+	border: none;
+	height: 32px;
+}

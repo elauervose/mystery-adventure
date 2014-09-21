@@ -1,0 +1,40 @@
+.caption.big_black,
+.caption.small_black,
+.head-image h1 {
+	background: #000;
+}
+
+.caption.big_white,
+.caption.small_white {
+	background: #FFF;
+}
+
+.post .featured {
+	overflow: hidden;
+}
+
+.forms fieldset .text-input,
+.forms fieldset .text-area,
+.comment-form input,
+.comment-form textarea {
+	height: 39px;
+	line-height: 36px;
+	padding: 0px 10px;
+}
+
+.forms fieldset .btn-submit,
+.comment-form .btn-submit {
+	height: 39px;
+	line-height: 1;
+	padding: 7px 18px;
+}
+
+.featured a .more,
+.items li a .more,
+.item a .more {
+	background: #000 url(../images/icon-more.png) no-repeat center center;
+}
+
+.zetaWarning {
+	background: #000;
+}
