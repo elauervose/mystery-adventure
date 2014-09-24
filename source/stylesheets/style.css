@@ -1666,7 +1666,7 @@ blockquote p {
 .item a .more {
 	display: none;
 	height: 100%;
-	position: absolute;
+	position: relative;
 	text-align: center;
 	text-decoration: none;
 	width: 100%;
@@ -1679,7 +1679,7 @@ blockquote p {
 .item a .more2 {
 	display: none;
 	height: 100%;
-	position: absolute;
+	position: relative;
 	text-align: center;
 	text-decoration: none;
 	width: 100%;
@@ -2216,4 +2216,38 @@ blockquote p {
 	line-height: 26px;
 	padding: 2px 10px 5px;
 	font-family: 'uglyquaregular', serif;
+}
+
+.background {
+	background-image: url(/images/brickwallclosed.png);
+	background-position: center;
+}
+
+.background-container {
+	width: auto;
+	height: 740px;
+	position: relative;
+}
+
+.info-sign {
+	margin-left: 20%;
+	margin-right: 50%;
+	padding-top: 5%;
+}
+
+img.sparklebox {
+	margin-left: 45%;
+	margin-right: 40%;
+	padding-top: 11%;
+}
+
+
+img.sparklebox {
+    opacity: 0.01;
+    filter: alpha(opacity=40); /* For IE8 and earlier */
+}
+
+img.sparklebox:hover {
+    opacity: 1.0;
+    filter: alpha(opacity=100); /* For IE8 and earlier */
 }
