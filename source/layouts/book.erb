@@ -1,0 +1,44 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <title>Mystery Adventure</title>
+  <link rel="shortcut icon" type="image/x-icon" href="images/favicon.png" />
+
+  <link rel="stylesheet" type="text/css" href="stylesheets/book.css" media="all" />
+  <link rel="stylesheet" type="text/css" href="stylesheets/style.css" media="all" />
+
+  <script type="text/javascript" src="javascripts/jquery-1.7.2.min.js"></script>
+  <script type="text/javascript" src="javascripts/turnjs4/lib/turn.js"></script>
+  <script type="text/javascript" src="javascripts/turnjs4/lib/scissor.js"></script>
+</head>
+
+<body class="<%= page_classes %>">
+  <!-- Begin Header -->
+  <div class="header-wrapper">
+    <div class="header">
+
+      <!-- Begin Menu -->
+      <div id="menu" class="menu">
+        <ul id="tiny">
+          <li class="active"><a href="index.html">Home</a>
+          </li>
+          <li><a href="event.html">Event Details</a>
+          </li>
+          <li><a href="rsvp.html">RSVP</a>
+          </li>
+          <li><a href="backstory.html">Backstory</a>
+          </li>
+        </ul>
+      </div>
+      <div class="clear"></div>
+      <!-- End Menu -->
+    </div>
+  </div>
+  <!-- End Header -->
+
+  <%= yield %>
+
+</body>
+</html>

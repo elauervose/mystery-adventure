@@ -459,6 +459,17 @@ blockquote p {
 	font-weight: 300;
 	font-family: 'uglyquaregular', serif;
 }
+.intro-left {
+	line-height: 1.5em;
+	margin-bottom: 30px;
+	font-weight: 300;
+	margin: 0 auto;
+	position: relative;
+	text-align: left;
+	font-size: 3em;
+	font-weight: 300;
+	font-family: 'uglyquaregular', serif;
+}
 
 .intro2 {
 	line-height: 1.5em;
@@ -526,6 +537,10 @@ blockquote p {
 .wrapper {
 	width: 960px;
 	margin: 50px auto;
+}
+
+.wrapper2 {
+	width: 50%;
 }
 
 .head-image {
@@ -1636,6 +1651,12 @@ blockquote p {
 	height: 170px;
 }
 
+.items2 li img {
+	display: block;
+	width: 228px;
+	height: 60px;
+}
+
 .items li a {
 	color: #FFF;
 }
@@ -1650,8 +1671,23 @@ blockquote p {
 	text-decoration: none;
 	width: 100%;
 	z-index: 100;
-	background: rgba(0, 0, 0, 0.66) url(/images/icon-more.png) no-repeat center center;
+	background: rgba(230, 230, 230, 0.1) url(/images/infocard2.png) no-repeat center center;
 }
+
+.featured a .more2,
+.items li a .more2,
+.item a .more2 {
+	display: none;
+	height: 100%;
+	position: absolute;
+	text-align: center;
+	text-decoration: none;
+	width: 100%;
+	z-index: 100;
+	box-shadow: 10px 5px 5px black;
+	background: url(/images/box2.png) no-repeat center center;
+}
+
 
 .featured a,
 .featured img,
@@ -1690,46 +1726,46 @@ blockquote p {
 	display: inline-block;
 }
 
-.item-info .portfolio-meta {
+.item .portfolio-meta {
 	padding: 0;
 }
 
-.item-info .portfolio-meta li {
+.item .portfolio-meta li {
 	background: none;
 	padding: 0;
 	margin: 7px 0 0 0;
 }
 
-.item-info .portfolio-meta li:first-child {
+.item .portfolio-meta li:first-child {
 	margin: 0;
 }
 
-.item-info .portfolio-meta li span {
+.item .portfolio-meta li span {
 	font-family: 'Open Sans', sans-serif;
 	font-weight: bold;
 	text-transform: uppercase;
 }
 
-.item-info .portfolio-nav {
+.item .portfolio-nav {
 	border-top: 1px solid #b6b6b6;
 	margin-top: 18px;
 	padding-top: 23px;
 }
 
-.item-info .portfolio-nav h6 {
+.item .portfolio-nav h6 {
 	margin-bottom: 10px;
 	text-transform: uppercase;
 }
 
-.item-info .portfolio-nav a {
+.item .portfolio-nav a {
 	width: 29px;
 	height: 29px;
 	display: block;
 }
 
-.item-info .portfolio-nav .prev,
-.item-info .portfolio-nav .next,
-.item-info .portfolio-nav .up {
+.item .portfolio-nav .prev,
+.item .portfolio-nav .next,
+.item .portfolio-nav .up {
 	background: #303030 url(/images/portfolio-nav.png) no-repeat top left;
 	width: 29px;
 	height: 29px;
@@ -1737,29 +1773,29 @@ blockquote p {
 	margin-right: 6px;
 }
 
-.item-info .portfolio-nav .prev {
+.item .portfolio-nav .prev {
 	background-position: top left;
 }
 
-.item-info .portfolio-nav .next {
+.item .portfolio-nav .next {
 	background-position: top right;
 }
 
-.item-info .portfolio-nav .up {
+.item .portfolio-nav .up {
 	background-position: top center;
 }
 
-.item-info .portfolio-nav .prev:hover {
+.item .portfolio-nav .prev:hover {
 	background-position: bottom left;
 	background-color: #000;
 }
 
-.item-info .portfolio-nav .next:hover {
+.item .portfolio-nav .next:hover {
 	background-position: bottom right;
 	background-color: #000;
 }
 
-.item-info .portfolio-nav .up:hover {
+.item .portfolio-nav .up:hover {
 	background-position: bottom center;
 	background-color: #000;
 }
