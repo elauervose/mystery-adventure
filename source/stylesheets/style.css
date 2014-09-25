@@ -2310,12 +2310,9 @@ img.sparklebox:hover {
     filter: alpha(opacity=100); /* For IE8 and earlier */
 }
 
-/*This is an experiment*/
-
 img.sparklebox2 {
 	margin-left: 30%;
 	margin-right: 60%;
-	padding-top: 11%;
 	z-index: 1;
 }
 
@@ -2324,8 +2321,26 @@ img.sparklebox2 {
     opacity: 0.01;
     filter: alpha(opacity=40); /* For IE8 and earlier */
 }
-
 img.sparklebox2:hover {
+    opacity: 1.0;
+    filter: alpha(opacity=100); /* For IE8 and earlier */
+}
+/*This is an experiment*/
+
+img.sparklebox3 {
+	margin-left: 30%;
+	margin-right: 60%;
+	padding-top: 11%;
+	z-index: 1;
+}
+
+
+img.sparklebox3 {
+    opacity: 0.01;
+    filter: alpha(opacity=40); /* For IE8 and earlier */
+}
+
+img.sparklebox3:hover {
     opacity: 1.0;
     filter: alpha(opacity=100); /* For IE8 and earlier */
     background-image: url(/images/book-sparkle.png);
