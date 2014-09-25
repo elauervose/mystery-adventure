@@ -22,18 +22,34 @@
       <!-- Begin Menu -->
       <div id="menu" class="menu">
         <ul id="tiny">
-          <li class="active"><a href="index.html">Home</a>
+          <li<%= active?('index') %>>
+            <a href="/index.html">Home</a>
           </li>
-          <li><a href="event.html">Event Details</a>
+          <li<%= active?('event') %>>
+            <a href="/event.html">Event Details</a>
           </li>
-          <li><a href="rsvp.html">RSVP</a>
+          <li<%= active?('rsvp') %>>
+            <a href="/rsvp.html">RSVP</a>
           </li>
-          <li><a href="backstory.html">Backstory</a>
+          <li<%= active?('news') %>>
+            <%= link_to 'News', '/news.html' %>
           </li>
+          <li>
+            <%= link_to 'Backstory', '/backstory.html' %>
+          </li>
+          <li>
+            <%= link_to 'archives-unicornguild', '/archives-unicornguild.html' %>
+          </li>
+          <!--
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="videocase.html">Videocase</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          -->
         </ul>
       </div>
       <div class="clear"></div>
       <!-- End Menu -->
+
     </div>
   </div>
   <!-- End Header -->
