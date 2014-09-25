@@ -54,7 +54,7 @@ common: &default_settings
   # See https://newrelic.com/docs/site/renaming-applications for more details
   # on renaming your New Relic applications.
   #
-  app_name: My Application
+  app_name: Mystery Adventure
 
   # When "true", the agent collects performance data about your
   # application and reports this data to the New Relic service at
