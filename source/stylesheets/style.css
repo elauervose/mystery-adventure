@@ -1703,20 +1703,6 @@ blockquote p {
 	background: rgba(230, 230, 230, 0.1) url(/images/infocard2.png) no-repeat center center;
 }
 
-.featured a .more2,
-.items li a .more2,
-.item a .more2 {
-	display: none;
-	height: 100%;
-	position: relative;
-	text-align: center;
-	text-decoration: none;
-	width: 100%;
-	z-index: 100;
-	box-shadow: 10px 5px 5px black;
-	background: url(/images/box2.png) no-repeat center center;
-}
-
 
 .featured a,
 .featured img,
@@ -2248,7 +2234,7 @@ blockquote p {
 }
 
 .background {
-	background-image: url(/images/brickwallclosed.png);
+	background-image: url(/images/brickwallclosed.jpg);
 	background-position: center;
 }
 

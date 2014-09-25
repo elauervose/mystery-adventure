@@ -49,8 +49,15 @@
     <p class="intro2">
       There's somthing going on in the Unicorn Adventure world. Read the Mystery Adventure twitter feed to find out more.
     </p>
-    <p><a class="twitter-timeline" href="https://twitter.com/ELauerVose/lists/mystery-adventure" data-widget-id="514511958276464640">Follow tweets from The Mystery Adventure</a>
+    <p><a class="twitter-timeline"  href="https://twitter.com/ELauerVose/lists/mystery-adventure" data-widget-id="514511958276464640">Follow tweets from The Mystery Adventure</a>
     <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script></p>
   </div>
   <div class="clear"></div>
 </div>
+
+<!-- Instructions: https://www.npmjs.org/package/twitter-public-stream
+
+http://stream.twitter.com/1.1/statuses/filter.json?follow=unicorntrekker,theunicornguild,unicorndefense
+
+$.getJSON("yourstream", function(data) {      $("#twitter").html(data[0].text); });
+ -->
