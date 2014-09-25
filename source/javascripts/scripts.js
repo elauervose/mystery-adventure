@@ -396,6 +396,10 @@ $(document).ready(function() {
     }
   });
 
+  $('.popup-inline').magnificPopup({
+    type: 'inline'
+  });
+
   $('.image-popup-no-margins').magnificPopup({
     type: 'image',
     closeOnContentClick: true,
@@ -411,4 +415,79 @@ $(document).ready(function() {
     }
   });
 
+});
+
+/*-----------------------------------------------------------------------------------*/
+/*  Gallery Lightbox
+/*-----------------------------------------------------------------------------------*/
+
+$(document).ready(function() {
+  $('.popup-gallery').magnificPopup({
+    delegate: 'a',
+    type: 'image',
+    tLoading: 'Loading image #%curr%...',
+    mainClass: 'mfp-img-mobile',
+    gallery: {
+      enabled: true,
+      navigateByImgClick: true,
+      preload: [0,1] // Will preload 0 - before current, and 1 after the current image
+    },
+    image: {
+      tError: '<a href="%url%">The image #%curr%</a> could not be loaded.',
+      titleSrc: function(item) {
+        return item.el.attr('title') + '<small>by Marsel Van Oosten</small>';
+      }
+    }
+  });
+});
+
+/*-----------------------------------------------------------------------------------*/
+/*  Ajax popup
+/*-----------------------------------------------------------------------------------*/
+
+$(document).ready(function() {
+
+  $('.simple-ajax-popup-align-top').magnificPopup({
+    type: 'ajax',
+    alignTop: true,
+    overflowY: 'scroll' // as we know that popup content is tall we set scroll overflow by default to avoid jump
+  });
+
+  $('.simple-ajax-popup').magnificPopup({
+    type: 'ajax'
+  });
+
+});
+
+/*-----------------------------------------------------------------------------------*/
+/*  Popup
+/*-----------------------------------------------------------------------------------*/
+
+$('#open-popup').magnificPopup({
+    items: [
+      {
+        src: 'http://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Peter_%26_Paul_fortress_in_SPB_03.jpg/800px-Peter_%26_Paul_fortress_in_SPB_03.jpg',
+        title: 'Peter & Paul fortress in SPB'
+      },
+      {
+        src: 'http://vimeo.com/123123',
+        type: 'iframe' // this overrides default type
+      },
+      {
+        src: $('<div class="white-popup">Dynamically created element</div>'), // Dynamically created element
+        type: 'inline'
+      },
+      {
+        src: '<div class="white-popup">Popup from HTML string</div>', // HTML string
+        type: 'inline'
+      },
+      {
+        src: '#my-popup', // CSS selector of an element on page that should be used as a popup
+        type: 'inline'
+      }
+    ],
+    gallery: {
+      enabled: true
+    },
+    type: 'image' // this is a default type
 });
