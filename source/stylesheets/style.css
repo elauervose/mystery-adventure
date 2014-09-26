@@ -530,6 +530,18 @@ blockquote p {
 	font-family: 'uglyquaregular', serif;
 }
 
+.bkfnt {
+	line-height: 1.4em;
+	margin-bottom: 5px;
+	font-weight: 100;
+	margin: 0 auto;
+	position: relative;
+	text-align: left;
+	font-size: 1.4em;
+	font-family: 'uglyquaregular', serif;
+}
+
+
 .header-wrapper {
 	width: 100%;
 	height: 75px;
@@ -541,10 +553,57 @@ blockquote p {
 	box-shadow: 0px 1px 0px 0px rgba(0, 0, 0, 0.5);
 }
 
+
+/*=================================================*/
+/*Notes about Rows for reference*/
+	/*Standard row width = 1280 (high) OR 960 (average)*/
+		/*960/6-quadrant(=160), 3px+3px/border(=6), 150px/img, 4px/margin-side*/
+		/*960/5-quadrant(=192) 3px+3px/border(=6), 150px/img, 4px/margin-side*/
+/*=================================================*/
+
 .fun-with-blocks{
   display: inline-block;
-  margin-top: 30px;
+  border: 10px, auto;
+  overflow: hidden;
+  z-index: 1;
 }
+.row1c6{
+	width: 150px;
+	height: 150px;
+	border: 3px;
+	margin-left: 4px;
+	margin-top: 20px;
+	text-align: center;
+}
+
+.row2c5{
+	width: 150px;
+	height: 150px;
+	border: 3px;
+	margin-left: 4px;
+	margin-top: 20px;
+	text-align: center;
+
+}
+
+.row3c6{
+	width: 150px;
+	border: 3px;
+	height: 150px;
+	margin-left: 4px;
+	margin-top: 20px;
+	text-align: center;
+
+}
+
+.row2{
+	text-align: center;
+}
+.row3{
+	text-align: center;
+}
+
+/*================================*/
 
 .header {
 	width: 960px;
@@ -2258,6 +2317,7 @@ blockquote p {
 	background-image: url(/images/archive-UG.jpeg);
 	background-position: center;
 	width: 100%;
+	height: 100%
 }
 
 .background-container {
@@ -2313,13 +2373,6 @@ img.sparklebox2:hover {
 }
 /*This is an experiment*/
 
-img.sparklebox3 {
-	margin-left: 30%;
-	margin-right: 60%;
-	padding-top: 11%;
-	z-index: 1;
-}
-
 
 img.sparklebox3 {
     opacity: 0.01;
@@ -2329,9 +2382,15 @@ img.sparklebox3 {
 img.sparklebox3:hover {
     opacity: 1.0;
     filter: alpha(opacity=100); /* For IE8 and earlier */
-    background-image: url(/images/book-sparkle.png);
 }
 
+blockquote{
+	border-left: 2px solid;
+	padding-left: 15px;
+	margin-left: 15px;
+	margin-bottom: 1em;
+	font-style: italic;
+}
 
 #open-popup {padding:20px}
 

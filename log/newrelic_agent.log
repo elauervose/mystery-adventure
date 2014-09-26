@@ -1,0 +1,16 @@
+# Logfile created on 2014-09-25 15:46:16 -0700 by logger.rb/31641
+[09/25/14 15:46:16 -0700 evose-MBP (44990)] INFO : Starting the New Relic agent in "development" environment.
+[09/25/14 15:46:16 -0700 evose-MBP (44990)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[09/25/14 15:46:16 -0700 evose-MBP (44990)] WARN : No configuration file found. Working directory = /Users/evose/Dropbox/coding/websites/mystery-adventure
+[09/25/14 15:46:16 -0700 evose-MBP (44990)] WARN : Looked in these locations (based on defaults): /Users/evose/Dropbox/coding/websites/mystery-adventure/config/newrelic.yml, /Users/evose/Dropbox/coding/websites/mystery-adventure/newrelic.yml, /Users/evose/Dropbox/coding/websites/mystery-adventure/config/newrelic.yml, /Users/evose/Dropbox/coding/websites/mystery-adventure/newrelic.yml, /Users/evose/.newrelic/newrelic.yml, /Users/evose/newrelic.yml
+[09/25/14 15:46:16 -0700 evose-MBP (44990)] INFO : Environment: development
+[09/25/14 15:46:16 -0700 evose-MBP (44990)] INFO : No known dispatcher detected.
+[09/25/14 15:46:16 -0700 evose-MBP (44990)] INFO : Application: development
+[09/25/14 15:46:16 -0700 evose-MBP (44990)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'.
+[09/25/14 15:46:16 -0700 evose-MBP (44990)] INFO : Installing Net instrumentation
+[09/25/14 15:46:16 -0700 evose-MBP (44990)] INFO : Installing deferred Rack instrumentation
+[09/25/14 15:46:16 -0700 evose-MBP (44990)] INFO : Installing Rack::Builder middleware instrumentation
+[09/25/14 15:46:16 -0700 evose-MBP (44990)] INFO : Finished instrumentation
+[09/25/14 15:46:24 -0700 evose-MBP (44990)] INFO : Doing deferred dependency-detection before Rack startup
+[09/25/14 15:46:25 -0700 evose-MBP (44990)] ERROR : Invalid license key, please contact support@newrelic.com
+[09/25/14 15:46:25 -0700 evose-MBP (44990)] ERROR : Visit NewRelic.com to obtain a valid license key, or to upgrade your account.
