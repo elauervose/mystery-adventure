@@ -202,6 +202,23 @@ hr {
 	margin-bottom: 50px;
 }
 
+hr.hr2 {
+	border: none;
+	border-top: 1px solid #ffffff;
+	height: 1px;
+	margin-top: 10px;
+	margin-bottom: 20px;
+	background-color: #ffffff;
+  opacity: .04;
+}
+
+.transparent-style{
+
+    background-color: #ffffff;
+    opacity: .4;
+
+}
+
 a {
 	text-decoration: none;
 	color: #3cab88;
@@ -2290,11 +2307,20 @@ height: 100%;
 .overlay {
   background:transparent;
   position:relative;
-  width:960px;
-  height:450px; /* your iframe height */
-  top:450px;  /* your iframe height */
-  margin-top:-450px;  /* your iframe height */
+  width:461px;
+  height:331px; /* your iframe height */
+  top:461px;  /* your iframe height */
+  margin-top:-461px;  /* your iframe height */
 }
+
+.form-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 35px;
+    height: 0;
+    overflow: hidden;
+}
+
 .text-shadow-large {
    text-shadow: 1px 1px 2px khaki, 0 0 1em lightyellow, 0 0 0.2em lightyellow;
    color: white;
